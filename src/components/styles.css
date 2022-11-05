@@ -1,0 +1,29 @@
+.hide {
+  display: none;
+}
+
+.display-content {
+  display: block;
+  padding-left: 20px;
+}
+
+.folder p {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.folder span {
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.file {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  cursor: context-menu !important;
+  text-decoration: underline;
+}
