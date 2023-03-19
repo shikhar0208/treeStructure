@@ -3,6 +3,7 @@ import { structureData } from './data/jsonData';
 import Folder from './components/Folder';
 
 import './App.css';
+import Folder1 from './components/Folder1';
 
 const App = () => {
   const renderUi = () => {
@@ -19,7 +20,13 @@ const App = () => {
     }
   };
 
-  return <div className='app-body'>{renderUi()}</div>;
+  // return <div className='app-body'>{renderUi()}</div>;
+
+  return (
+    <div className='app-body'>
+      <Folder1 data={structureData} />
+    </div>
+  );
 };
 
 export default App;
