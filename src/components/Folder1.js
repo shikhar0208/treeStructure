@@ -25,7 +25,6 @@ const Folder1 = (props) => {
 
   const ui = () => {
     let keys = Object.keys(data);
-    debugger;
     return keys.map((k) => {
       if (data[k].isFile) {
         // return displayFile(data[k]);

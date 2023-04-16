@@ -3,7 +3,6 @@ import { BsChevronDown, BsChevronUp } from 'react-icons/bs';
 import Folder1 from './Folder1';
 
 const DisplayContent = (props) => {
-  debugger;
   const [expand, setExpand] = useState(false);
   const { data, keyName, isFile } = props;
 
